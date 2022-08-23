@@ -1,0 +1,78 @@
+@import "../../styles//index.scss";
+.platformSection {
+  background-image: url("../../../assets//images/bg.svg");
+  display: grid;
+  place-items: center;
+  padding: 5rem 1rem;
+
+  .container {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    position: relative;
+    gap: 5rem;
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+
+    @include screenMax800 {
+      flex-direction: column;
+    }
+    main {
+      border: 1px solid red;
+      max-width: 500px;
+      h1 {
+        max-width: 370px;
+        margin-bottom: 2rem;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .rightSide {
+      article {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+        .block {
+          width: 10px;
+          height: 20px;
+          background-color: $yellow;
+          margin-right: 2rem;
+          border: 3px solid $darkYellow;
+        }
+      }
+
+      .infoBlock {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 5rem;
+        bottom: 2rem;
+        padding: 0.2rem 1rem;
+        background: linear-gradient(180deg, #4f8ff1 0%, #2b59ff 84.9%);
+        box-shadow: 0px 24px 50px rgba(43, 89, 255, 0.2);
+        backdrop-filter: blur(34px);
+        border-radius: 15px;
+        color: white;
+        gap: 2rem;
+
+        @include screenMax800 {
+          display: grid;
+          grid-template-columns: auto auto;
+          position: static;
+        }
+
+        article {
+          display: flex;
+          flex-direction: column;
+          border: 1px solid red;
+          gap: 1rem;
+          padding: 15px;
+        }
+      }
+    }
+  }
+}

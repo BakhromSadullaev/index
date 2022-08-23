@@ -1,0 +1,115 @@
+@import "../../styles/index.scss";
+
+section {
+  background-image: url("../../../assets/images/Component\ 1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 1rem;
+
+  .description,
+  .title {
+    text-align: center;
+  }
+
+  .description {
+    color: #ffd500;
+    margin-bottom: 1rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+
+    @include screenMax800 {
+      flex-direction: column;
+    }
+
+    .img_container {
+      max-width: 600px;
+    }
+
+    .img_container > img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+
+    @include screenMax800 {
+      grid-template-columns: auto;
+      place-items: center;
+    }
+
+    article {
+      width: 250px;
+      padding: 1.5rem;
+      color: black;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 8px;
+
+      .icon {
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+
+      p {
+        font-size: 14px;
+        margin: 5px 0 15px 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: #ffd500;
+      }
+    }
+
+    .more {
+      background: hsla(235, 100%, 78%, 1);
+
+      background: linear-gradient(
+        90deg,
+        hsla(235, 100%, 78%, 1) 0%,
+        hsla(222, 77%, 33%, 1) 100%
+      );
+
+      background: -moz-linear-gradient(
+        90deg,
+        hsla(235, 100%, 78%, 1) 0%,
+        hsla(222, 77%, 33%, 1) 100%
+      );
+
+      background: -webkit-linear-gradient(
+        90deg,
+        hsla(222, 77%, 33%, 1) 0%,
+        hsla(235, 100%, 78%, 1) 100%
+      );
+
+      display: grid;
+      place-items: center;
+      padding: 1.5rem;
+      color: white;
+      border-radius: 8px;
+      width: 250px;
+
+      button {
+        padding: 15px 20px;
+        border-radius: 25px;
+        font-size: 12px;
+        font-weight: 600;
+        border: none;
+        color: #003566;
+        cursor: pointer;
+
+        @include screenMax800 {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
