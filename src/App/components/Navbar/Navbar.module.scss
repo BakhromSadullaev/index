@@ -33,7 +33,7 @@ nav {
       box-shadow: 0 4px 30px #00356687;
     }
 
-    @include screenMax800 {
+    @include screenMax820 {
       display: block;
     }
   }
@@ -52,7 +52,7 @@ nav {
       }
     }
 
-    @include screenMax800 {
+    @include screenMax820 {
       display: none;
     }
   }
@@ -72,7 +72,7 @@ nav {
       background-color: #001d3d;
     }
 
-    @include screenMax800 {
+    @include screenMax820 {
       display: none;
     }
   }
