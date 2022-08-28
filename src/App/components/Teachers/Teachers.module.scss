@@ -1,0 +1,72 @@
+.teacher {
+
+    margin: 5rem 0;
+
+
+    .wrapper {
+        background-color: #f8f9fa;
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+
+    img {
+        width: 40%;
+    }
+
+    .surname {
+        display: flex;
+        align-items: center;
+        margin: 2rem 0;
+    }
+
+    .surname>img {
+        width: 13%;
+        margin-left: 10px;
+    }
+
+    .surname>em {
+        font-size: 1.5rem;
+    }
+
+    .container>h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .container>p {
+        margin: 1rem 0;
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+
+
+    @media only screen and (max-width:1000px) {
+        .wrapper {
+            flex-direction: column;
+        }
+    }
+
+    @media only screen and (max-width:820px) {
+        .teacher {
+            margin: 0rem;
+        }
+
+        .wrapper {
+            width: 90%;
+        }
+
+        .wrapper>img {
+            width: 100%;
+        }
+
+        .container>h1 {
+            font-size: 2rem;
+        }
+    }
+}
