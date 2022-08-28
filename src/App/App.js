@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import PlatformSection from "./components/PlatformSection/PlatformSection";
 import TrackSection from "./components/TrackSection/TrackSection";
+import Trainers from "./components/Trainers/Trainers";
 
 function App() {
   return (
@@ -11,8 +12,11 @@ function App() {
       <Header />
       <TrackSection />
       <PlatformSection />
+      <Trainers/>
     </div>
   );
 }
 
 export default App;
+
+
