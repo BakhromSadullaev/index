@@ -7,7 +7,7 @@ function Tools() {
   return (
     <div className={style.wrapper} >
       <div className={style.container} >
-      <img src={Headline} alt="tools image heading"  className={style.headline} />
+        <h1>Tools We Use For The Best Learning Experience</h1>
       <img src={toolsImg} alt="tools image" className={style.toolsImg}  />
 </div>
 </div>
