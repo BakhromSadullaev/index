@@ -6,7 +6,7 @@ function Teachers() {
 <div className={style.teacher}>
     <div className={style.wrapper}>
         <div className={style.container}>
-            <h1>Welcome to ITIC</h1>
+            <h1>Welcome to INDEX</h1>
             <p> labore cupiditate laborum a nihil voluptatibus sapiente possimus voluptatem enim iste atque, in et
                 provident. Inventore, consequuntur libero quis voluptatibus autem nulla! Quas, magni sequi qui eaque
                 aliquam optio quos commodi vitae. Ducimus consequuntur quia molestiae, corrupti modi, velit minus quidem
