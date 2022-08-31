@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import PlatformSection from "./components/PlatformSection/PlatformSection";
-import Teachers from "./components/Teachers/Teachers";
+import Tools from "./components/Tools/Tools";
 import TrackSection from "./components/TrackSection/TrackSection";
 
 
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <TrackSection />
       <PlatformSection />
-      <Teachers />
+      <Tools/>
     </div>
   );
 }
