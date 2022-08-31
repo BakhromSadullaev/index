@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import "../../styles/index.scss";
+
+.teacher {
+  margin: 5rem 0;
+
+  @include screenMax800 {
+    margin: 2rem 0;
+  }
+}
+
+.wrapper {
+  background-color: #f8f9fa;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+
+  @include screenMax1000 {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+.wrapper > img {
+  max-width: 300px;
+  background: #dcdced;
+  border-radius: 47% 17% 36% 50% / 56% 51% 15% 28%;
+  padding: 10px;
+  margin-left: 6rem;
+
+  @include screenMax800 {
+    margin: 0;
+    //   width: 50%;
+  }
+}
+
+.surname {
+  display: flex;
+  align-items: center;
+  @include screenMax1000 {
+    justify-content: center;
+  }
+  margin: 2rem 0;
+}
+
+.surname > img {
+  width: 10%;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.surname > em {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container > h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.container > p {
+  margin: 1rem 0;
+  line-height: 30px;
+  font-size: 17px;
+}
