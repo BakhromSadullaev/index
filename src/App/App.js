@@ -16,8 +16,8 @@ function App() {
       <TrackSection />
       <PlatformSection />
       <Tools/>
-      <Parents/>
       <Teachers />
+      <Parents/>
     </div>
   );
 }
