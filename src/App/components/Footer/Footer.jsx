@@ -52,7 +52,7 @@ function Footer() {
             </div>
         </div>
         
-            <hr />
+            <div className={style.footerLine} ></div>
         <footer>
             <div className={style.footerWrapper} >
                 <p>© 2022 INDEX Academy</p>
