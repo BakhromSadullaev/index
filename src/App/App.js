@@ -6,7 +6,7 @@ import PlatformSection from "./components/PlatformSection/PlatformSection";
 import Tools from "./components/Tools/Tools";
 import TrackSection from "./components/TrackSection/TrackSection";
 import Teachers from "./components/Teachers/Teachers";
-import LanguageDetector from "./components/LanguageDetector/LanguageDetector";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       <Tools />
       <Teachers />
       <Parents />
-      <LanguageDetector />
+      <Footer />
     </div>
   );
 }
