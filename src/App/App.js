@@ -5,9 +5,8 @@ import Parents from "./components/Parents/Parents";
 import PlatformSection from "./components/PlatformSection/PlatformSection";
 import Tools from "./components/Tools/Tools";
 import TrackSection from "./components/TrackSection/TrackSection";
-import Teachers from './components/Teachers/Teachers'
+import Teachers from "./components/Teachers/Teachers";
 import Footer from "./components/Footer/Footer";
-
 
 function App() {
   return (
@@ -16,10 +15,10 @@ function App() {
       <Header />
       <TrackSection />
       <PlatformSection />
-      <Tools/>
+      <Tools />
       <Teachers />
-      <Parents/>
-      <Footer/>
+      <Parents />
+      <Footer />
     </div>
   );
 }
