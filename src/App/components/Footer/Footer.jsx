@@ -1,6 +1,5 @@
 import React from 'react'
 import style from './Footer.module.scss'
-import index from '../../../assets/images/INDEX-removebg-preview.png'
 
 function Footer() {
   return (

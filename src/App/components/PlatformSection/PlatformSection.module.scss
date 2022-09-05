@@ -11,15 +11,16 @@
     // justify-content: center;
     position: relative;
     gap: 5rem;
-    width: 70%;
+    width: 90%;
     margin: auto;
-    border: 1px solid black;
+    box-shadow: 0 0 5px;
+    padding: 2rem 10px;
+    border-radius: 10px;
 
     @include screenMax800 {
       flex-direction: column;
     }
     main {
-      border: 1px solid red;
       max-width: 500px;
       h1 {
         max-width: 370px;
@@ -51,13 +52,13 @@
         position: absolute;
         right: 5rem;
         bottom: 2rem;
-        padding: 0.2rem 1rem;
+        padding: 0 15px;
         background: linear-gradient(180deg, #4f8ff1 0%, #2b59ff 84.9%);
         box-shadow: 0px 24px 50px rgba(43, 89, 255, 0.2);
         backdrop-filter: blur(34px);
         border-radius: 15px;
         color: white;
-        gap: 2rem;
+        gap: 1.5rem;
 
         @include screenMax800 {
           display: grid;
@@ -68,8 +69,8 @@
         article {
           display: flex;
           flex-direction: column;
-          border: 1px solid red;
-          gap: 1rem;
+          // border: 1px solid red;
+          gap: 5px;
           padding: 15px;
         }
       }
