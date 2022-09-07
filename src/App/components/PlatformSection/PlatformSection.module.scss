@@ -11,15 +11,13 @@
     // justify-content: center;
     position: relative;
     gap: 5rem;
-    width: 70%;
+    width: 80%;
     margin: auto;
-    border: 1px solid black;
 
     @include screenMax800 {
       flex-direction: column;
     }
     main {
-      border: 1px solid red;
       max-width: 500px;
       h1 {
         max-width: 370px;
@@ -40,7 +38,7 @@
           width: 10px;
           height: 20px;
           background-color: $yellow;
-          margin-right: 2rem;
+          margin-right: 1em;
           border: 3px solid $darkYellow;
         }
       }
@@ -57,7 +55,8 @@
         backdrop-filter: blur(34px);
         border-radius: 15px;
         color: white;
-        gap: 2rem;
+        gap: 1rem;
+        box-shadow: 1px 1px 1px rgba(0, 0, 255, 0.498);
 
         @include screenMax800 {
           display: grid;
@@ -68,9 +67,20 @@
         article {
           display: flex;
           flex-direction: column;
-          border: 1px solid red;
           gap: 1rem;
           padding: 15px;
+          border-right: 1px solid rgba(215, 215, 215, 0.468);
+          height: 90px;
+
+        &:nth-child(4){
+          border: none;
+        }
+
+        @include screenMax800 {
+          &:nth-child(2){
+            border: none;
+          }
+        }
         }
       }
     }
