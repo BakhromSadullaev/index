@@ -46,10 +46,11 @@
       .infoBlock {
         display: flex;
         align-items: center;
+        justify-content: center;
         position: absolute;
-        right: 5rem;
+        right: 8rem;
         bottom: 2rem;
-        padding: 0.2rem 1rem;
+        padding: 0.2rem 1.2rem;
         background: linear-gradient(180deg, #4f8ff1 0%, #2b59ff 84.9%);
         box-shadow: 0px 24px 50px rgba(43, 89, 255, 0.2);
         backdrop-filter: blur(34px);
@@ -66,21 +67,24 @@
 
         article {
           display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
           flex-direction: column;
           gap: 1rem;
           padding: 15px;
           border-right: 1px solid rgba(215, 215, 215, 0.468);
           height: 90px;
 
-        &:nth-child(4){
-          border: none;
-        }
-
-        @include screenMax800 {
-          &:nth-child(2){
+          &:nth-child(4) {
             border: none;
           }
-        }
+
+          @include screenMax800 {
+            &:nth-child(2) {
+              border: none;
+            }
+          }
         }
       }
     }

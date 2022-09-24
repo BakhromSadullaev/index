@@ -12,8 +12,4 @@
   place-items: center;
   background-color: #000048;
   color: white;
-
-  @include screenMax800 {
-    right: 100px;
-  }
 }
